@@ -16,7 +16,7 @@ public class GrayscaleFilter {
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterGrayscale(image);
 
-        File outputDir = new File("imgs");
+        File outputDir = new File("imgs_result");
         File outputFile = new File(outputDir, "grayscale-result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }

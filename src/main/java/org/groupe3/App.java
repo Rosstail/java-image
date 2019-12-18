@@ -1,10 +1,11 @@
 package org.groupe3;
 
 public class App {
-    public static void main(String[] args) {
-        DilateFilter dilateFilter = new DilateFilter();
-        BlurFilter blurFilter = new BlurFilter();
-        GrayscaleFilter grayscaleFilter = new GrayscaleFilter();
+    static DilateFilter dilateFilter = new DilateFilter();
+    static BlurFilter blurFilter = new BlurFilter();
+    static GrayscaleFilter grayscaleFilter = new GrayscaleFilter();
+
+    public static void main(String[] args) throws FilterException {
         dilateFilter.FileToDilate();
         blurFilter.FileToBlur();
         grayscaleFilter.FileToGrayscale();

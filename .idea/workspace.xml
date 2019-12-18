@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a398aad-3c6c-4ff7-9d8e-be7e1c6e1154" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/blur-result.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/dilate-result.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/grayscale-result.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs_result/result.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/BlurFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/DilateFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/GrayscaleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/FilterException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/JavaHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/JavaHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/BlurFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/BlurFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/DilateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/DilateFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/GrayscaleFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/GrayscaleFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/blur-result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/dilate-result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/grayscale-result.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/JavaHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/JavaHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/BlurFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/BlurFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/DilateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/DilateFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/GrayscaleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/GrayscaleFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application">
@@ -94,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576666004838</updated>
       <workItem from="1576666006242" duration="433000" />
-      <workItem from="1576666571446" duration="1371000" />
+      <workItem from="1576666571446" duration="4539000" />
     </task>
     <servers />
   </component>
@@ -113,22 +118,22 @@
       <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state x="717" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666075866" />
-    <state width="1638" height="243" key="GridCell.Tab.0.bottom" timestamp="1576667905091">
+    <state width="1489" height="243" key="GridCell.Tab.0.bottom" timestamp="1576674500800">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="243" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1576667905091" />
-    <state width="1638" height="243" key="GridCell.Tab.0.center" timestamp="1576667905090">
+    <state width="1489" height="243" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1576674500800" />
+    <state width="1489" height="243" key="GridCell.Tab.0.center" timestamp="1576674500799">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="243" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1576667905090" />
-    <state width="1638" height="243" key="GridCell.Tab.0.left" timestamp="1576667905090">
+    <state width="1489" height="243" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1576674500799" />
+    <state width="1489" height="243" key="GridCell.Tab.0.left" timestamp="1576674500799">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="243" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1576667905090" />
-    <state width="1638" height="243" key="GridCell.Tab.0.right" timestamp="1576667905091">
+    <state width="1489" height="243" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1576674500799" />
+    <state width="1489" height="243" key="GridCell.Tab.0.right" timestamp="1576674500800">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="243" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1576667905091" />
+    <state width="1489" height="243" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1576674500800" />
     <state x="659" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1576666571389">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
