@@ -38,11 +38,11 @@ public class JavaHelper {
     }
 
     public void filGrayScale() {
-        File f = new File("/Users/anthonybac/Desktop/java-image/src/main/java/org/groupe3/imgs/test.jpg");
+        File f = new File("imgs/test.jpg");
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterGrayscale(image);
 
-        File outputDir = new File("/Users/anthonybac/Desktop/java-image/src/main/java/org/groupe3/imgs");
+        File outputDir = new File("imgs");
         File outputFile = new File(outputDir, "result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
