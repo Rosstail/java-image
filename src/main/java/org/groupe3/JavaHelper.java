@@ -13,20 +13,30 @@ import static org.bytedeco.opencv.global.opencv_imgproc.*;
 public class JavaHelper {
 
     public void exempleBlurFile() {
-        File f = new File("/Users/anthonybac/Desktop/java-image/src/main/java/org/groupe3/imgs/test.jpg");
+        File f = new File("imgs/test.jpg");
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterBlur(image);
 
-        File outputDir = new File("/Users/anthonybac/Desktop/java-image/src/main/java/org/groupe3/imgs");
+        File outputDir = new File("imgs_result");
         File outputFile = new File(outputDir, "result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
 
     public Mat filterBlur(Mat image) {
-        int size = 3;
+        int size = 201;
         Mat result = image.clone();
         GaussianBlur(image, result, new Size(size, size), 0);
         return result;
+    }
+
+    public void filDilate() {
+        File f = new File("imgs/test.jpg");
+        Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
+        image = filterDilate(image);
+
+        File outputDir = new File("imgs_result");
+        File outputFile = new File(outputDir, "result.jpg");
+        opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
 
     public Mat filterDilate(Mat image) {
@@ -42,7 +52,7 @@ public class JavaHelper {
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterGrayscale(image);
 
-        File outputDir = new File("imgs");
+        File outputDir = new File("imgs_result");
         File outputFile = new File(outputDir, "result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
@@ -52,5 +62,4 @@ public class JavaHelper {
         cvtColor(image, result, Imgproc.COLOR_RGB2GRAY);
         return result;
     }
-
 }
