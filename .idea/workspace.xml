@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41395e08-a1f3-43f5-9687-b6888bd989fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1a398aad-3c6c-4ff7-9d8e-be7e1c6e1154" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/blur-result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/dilate-result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/grayscale-result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs_result/result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/BlurFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/DilateFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/GrayscaleFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/JavaHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/JavaHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/JavaHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/JavaHelper.java" afterDir="false" />
     </list>
@@ -21,20 +35,41 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1V9QyYCa3EIGOuswO69DB3KL38H" />
+  <component name="ProjectId" id="1V9WtJhHSKUzl8gbVVLdzTQry69" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.groupe3.App" />
+      <module name="org.groupe3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,22 +88,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41395e08-a1f3-43f5-9687-b6888bd989fb" name="Default Changelist" comment="" />
-      <created>1576663086258</created>
+      <changelist id="1a398aad-3c6c-4ff7-9d8e-be7e1c6e1154" name="Default Changelist" comment="" />
+      <created>1576666004838</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576663086258</updated>
-      <workItem from="1576663088730" duration="549000" />
+      <updated>1576666004838</updated>
+      <workItem from="1576666006242" duration="433000" />
+      <workItem from="1576666571446" duration="1371000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="512" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576663089332">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state x="444" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576666187063">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state x="512" y="344" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1576663089332" />
+    <state x="444" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666187063" />
+    <state x="717" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576666075866">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="717" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666075866" />
+    <state width="1638" height="243" key="GridCell.Tab.0.bottom" timestamp="1576667905091">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1576667905091" />
+    <state width="1638" height="243" key="GridCell.Tab.0.center" timestamp="1576667905090">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1576667905090" />
+    <state width="1638" height="243" key="GridCell.Tab.0.left" timestamp="1576667905090">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1576667905090" />
+    <state width="1638" height="243" key="GridCell.Tab.0.right" timestamp="1576667905091">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1576667905091" />
+    <state x="659" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1576666571389">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="659" y="355" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666571389" />
   </component>
 </project>

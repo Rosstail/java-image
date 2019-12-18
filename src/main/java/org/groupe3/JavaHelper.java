@@ -13,29 +13,29 @@ import static org.bytedeco.opencv.global.opencv_imgproc.*;
 public class JavaHelper {
 
     public void exempleBlurFile() {
-        File f = new File("/Users/escias/Desktop/java-image/imgs");
+        File f = new File("imgs/test.jpg");
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterBlur(image);
 
-        File outputDir = new File("/Users/escias/Desktop/java-image/imgresult");
-        File outputFile = new File(outputDir, "resultBlur.jpg");
+        File outputDir = new File("imgs_result");
+        File outputFile = new File(outputDir, "result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
 
     public Mat filterBlur(Mat image) {
-        int size = 3;
+        int size = 201;
         Mat result = image.clone();
         GaussianBlur(image, result, new Size(size, size), 0);
         return result;
     }
 
     public void filDilate() {
-        File f = new File("/Users/escias/Desktop/java-image/imgs");
+        File f = new File("imgs/test.jpg");
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterDilate(image);
 
-        File outputDir = new File("/Users/escias/Desktop/java-image/imgresult");
-        File outputFile = new File(outputDir, "resultDilate.jpg");
+        File outputDir = new File("imgs_result");
+        File outputFile = new File(outputDir, "result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
 
@@ -48,12 +48,12 @@ public class JavaHelper {
     }
 
     public void filGrayScale() {
-        File f = new File("/Users/escias/Desktop/java-image/imgs");
+        File f = new File("imgs/test.jpg");
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterGrayscale(image);
 
-        File outputDir = new File("/Users/escias/Desktop/java-image/imgresult");
-        File outputFile = new File(outputDir, "resultGrayscale.jpg");
+        File outputDir = new File("imgs_result");
+        File outputFile = new File(outputDir, "result.jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
 
