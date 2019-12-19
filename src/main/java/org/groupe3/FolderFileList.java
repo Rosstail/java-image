@@ -6,8 +6,13 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 
 public class FolderFileList {
+    static BlurFilter blurFilter = new BlurFilter();
+    static DilateFilter dilateFilter = new DilateFilter();
+    static GrayscaleFilter grayscaleFilter = new GrayscaleFilter();
+    private static int i;
+    private static String dir;
 
-    public static void Test() throws IOException {
+    public static void Test() throws IOException, FilterException {
 
         File f = new File("imgs");
 
@@ -23,10 +28,19 @@ public class FolderFileList {
                 System.out.println("directory:");
             } else {
                 System.out.println("     file:");
+                dir = file.getPath();
+                blurFilter.FileToBlur(i, dir);
+                dilateFilter.FileToDilate(i, dir);
+                grayscaleFilter.FileToGrayscale(i, dir);
             }
             System.out.println(file.getCanonicalPath());
+            i++;
         }
-
     }
-
+    public int GetI(){
+        return i;
+    }
+    public String GetDir(){
+        return dir;
+    }
 }
