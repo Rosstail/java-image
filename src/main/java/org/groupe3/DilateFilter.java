@@ -35,7 +35,7 @@ public class DilateFilter{
      * @param image
      * @return
      */
-    public Mat filterDilate(Mat image) {
+    public Mat filterDilate(Mat image){
         int size = 20;
         Mat result = image.clone();
         Mat element = getStructuringElement(Imgproc.MORPH_RECT, new Size(2 * size + 1, 2 * size + 1));

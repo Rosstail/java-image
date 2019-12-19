@@ -29,19 +29,20 @@ public class CLI {
         CommandLine cmd = parser.parse(options, args);
         if (cmd.hasOption("i")){
             String inputDirArg = cmd.getOptionValue("i");
-            System.out.println(inputDirArg);
+            System.out.println("input-dir = "+inputDirArg);
             in = inputDirArg;
         }
         if (cmd.hasOption("o")) {
             String outputDirArg = cmd.getOptionValue("o");
-            System.out.println(outputDirArg);
+            System.out.println("output-dir = "+outputDirArg);
             out = outputDirArg;
         }
         if (cmd.hasOption("f")){
             String inputfilter = cmd.getOptionValue("f");
-            System.out.println(inputfilter);
+            System.out.println("filter = "+inputfilter);
             filter = inputfilter;
         }
+        System.out.println("");
         folderFileList.Test(in, out, filter);
     }
 }
