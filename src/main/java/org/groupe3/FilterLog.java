@@ -6,8 +6,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Class that modify file imagefilter.log
+ */
 public class FilterLog{
 
+    /**
+     * Method that modify file imagefilter.log
+     * @param message
+     */
     void logToFile(String message) {
         try {
             FileWriter fw = new FileWriter("imagefilter.log", true);
@@ -18,6 +25,10 @@ public class FilterLog{
             System.out.println("Cannot open imagefilter.log. message=" + e.getMessage());
         }
     }
+
+    /**
+     *
+     */
     public void dumpLog() {
         File file = new File("imagefilter.log");
         try {
@@ -30,6 +41,11 @@ public class FilterLog{
             e.printStackTrace();
         }
     }
+
+    /**
+     * Method that delete/reset the file
+     * @throws IOException
+     */
     public void FileDelete() throws IOException {
         FileWriter fw = new FileWriter("imagefilter.log", false);
     }

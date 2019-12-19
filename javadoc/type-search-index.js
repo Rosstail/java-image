@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"org.groupe3","l":"App"},{"p":"org.groupe3","l":"BlurFilter"},{"p":"org.groupe3","l":"CLI"},{"p":"org.groupe3","l":"DilateFilter"},{"p":"org.groupe3","l":"FilterException"},{"p":"org.groupe3","l":"FilterLog"},{"p":"org.groupe3","l":"FolderFileList"},{"p":"org.groupe3","l":"GrayscaleFilter"}]
