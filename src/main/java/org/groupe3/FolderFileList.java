@@ -10,6 +10,7 @@ public class FolderFileList {
     static DilateFilter dilateFilter = new DilateFilter();
     static GrayscaleFilter grayscaleFilter = new GrayscaleFilter();
     private static int i;
+    private static String dir;
 
     public static void Test() throws IOException, FilterException {
 
@@ -27,7 +28,7 @@ public class FolderFileList {
                 System.out.println("directory:");
             } else {
                 System.out.println("     file:");
-                String dir = file.getPath();
+                dir = file.getPath();
                 blurFilter.FileToBlur(i, dir);
                 dilateFilter.FileToDilate(i, dir);
                 grayscaleFilter.FileToGrayscale(i, dir);
@@ -35,5 +36,11 @@ public class FolderFileList {
             System.out.println(file.getCanonicalPath());
             i++;
         }
+    }
+    public int GetI(){
+        return i;
+    }
+    public String GetDir(){
+        return dir;
     }
 }
