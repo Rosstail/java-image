@@ -13,7 +13,7 @@ public class FolderFileList {
     private static int i;
     private static String dir;
 
-    public static void Test(String filter) throws IOException, FilterException {
+    public static void Test(String in, String out, String filter) throws IOException, FilterException {
 
         File f = new File("imgs");
         filterlog.FileDelete();
@@ -33,11 +33,14 @@ public class FolderFileList {
                 dir = file.getPath();
                 switch (filter){
                     case "blur":
-                        blurFilter.FileToBlur(i, dir);
+                        blurFilter.FileToBlur(i, dir, out);
+                        break;
                     case "dilate":
-                        dilateFilter.FileToDilate(i, dir);
+                        dilateFilter.FileToDilate(i, dir, out);
+                        break;
                     case "grayscale":
-                        grayscaleFilter.FileToGrayscale(i, dir);
+                        grayscaleFilter.FileToGrayscale(i, dir, out);
+                        break;
                 }
             }
             System.out.println(file.getCanonicalPath());

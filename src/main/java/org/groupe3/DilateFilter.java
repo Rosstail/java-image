@@ -10,12 +10,12 @@ import static org.bytedeco.opencv.global.opencv_imgproc.*;
 public class DilateFilter{
     FilterLog filterlog = new FilterLog();
 
-    public void FileToDilate(int i, String dir) {
+    public void FileToDilate(int i, String dir, String out) {
         File f = new File(dir);
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterDilate(image);
 
-        File outputDir = new File("imgs_result");
+        File outputDir = new File(out);
         File outputFile = new File(outputDir, "dilate-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
         //filterlog.logToFile("Dilate filter apply on "+ dir);

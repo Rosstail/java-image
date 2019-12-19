@@ -1,14 +1,13 @@
 package org.groupe3;
 
+import org.apache.commons.cli.ParseException;
+
 import java.io.IOException;
 
 public class App {
-    static FolderFileList folderFileList = new FolderFileList();
-    static String filter;
+    static CLI cli = new CLI();
 
-    public static void main(String[] args) throws FilterException, IOException {
-        filter = "blur";
-        folderFileList.Test(filter);
-        folderFileList.dumpLog();
+    public static void main(String[] args) throws FilterException, IOException, ParseException {
+        cli.CLI(args);
     }
 }

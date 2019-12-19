@@ -12,12 +12,12 @@ import static org.bytedeco.opencv.global.opencv_imgproc.cvtColor;
 public class GrayscaleFilter {
     FilterLog filterlog = new FilterLog();
 
-    public void FileToGrayscale(int i, String dir) {
+    public void FileToGrayscale(int i, String dir, String out) {
         File f = new File(dir);
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterGrayscale(image);
 
-        File outputDir = new File("imgs_result");
+        File outputDir = new File(out);
         File outputFile = new File(outputDir, "grayscale-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
         //filterlog.logToFile("Grayscale filter apply on "+ dir);

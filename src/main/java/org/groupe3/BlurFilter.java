@@ -11,12 +11,12 @@ import static org.bytedeco.opencv.global.opencv_imgproc.*;
 public class BlurFilter {
     FilterLog filterlog = new FilterLog();
 
-    public void FileToBlur(int i, String dir) throws FilterException {
+    public void FileToBlur(int i, String dir, String out) throws FilterException {
         File f = new File(dir);
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterBlur(image);
 
-        File outputDir = new File("imgs_result");
+        File outputDir = new File(out);
         File outputFile = new File(outputDir, "blur-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
         filterlog.logToFile("Blur filter apply on "+ dir);
