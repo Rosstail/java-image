@@ -3,12 +3,12 @@ package org.groupe3;
 import java.io.IOException;
 
 public class App {
-    static DilateFilter dilateFilter = new DilateFilter();
-    static BlurFilter blurFilter = new BlurFilter();
-    static GrayscaleFilter grayscaleFilter = new GrayscaleFilter();
     static FolderFileList folderFileList = new FolderFileList();
+    static String filter;
 
     public static void main(String[] args) throws FilterException, IOException {
-        folderFileList.Test();
+        filter = "blur";
+        folderFileList.Test(filter);
+        folderFileList.dumpLog();
     }
 }
