@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a398aad-3c6c-4ff7-9d8e-be7e1c6e1154" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/FilterException.java" afterDir="false" />
+    <list default="true" id="802c0460-1aa9-4231-a749-dba201ee64b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs_result/blur-result1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs_result/dilate-result0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs_result/dilate-result1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs_result/grayscale-result0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs_result/grayscale-result1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/FolderFileList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,9 +20,8 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/BlurFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/BlurFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/DilateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/DilateFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/GrayscaleFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/groupe3/GrayscaleFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/blur-result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/dilate-result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/grayscale-result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/test0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs_result/result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs_result/blur-result0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/BlurFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/BlurFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/groupe3/DilateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/groupe3/DilateFilter.java" afterDir="false" />
@@ -34,17 +37,10 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1V9WtJhHSKUzl8gbVVLdzTQry69" />
+  <component name="ProjectId" id="1VA3UU7rkybLW2YL9E5M4IRNvPi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -66,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="test" type="Application" factoryName="Application">
+    <configuration name="filter" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.groupe3.App" />
@@ -93,13 +89,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a398aad-3c6c-4ff7-9d8e-be7e1c6e1154" name="Default Changelist" comment="" />
-      <created>1576666004838</created>
+      <changelist id="802c0460-1aa9-4231-a749-dba201ee64b3" name="Default Changelist" comment="" />
+      <created>1576682087857</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576666004838</updated>
-      <workItem from="1576666006242" duration="433000" />
-      <workItem from="1576666571446" duration="4539000" />
+      <updated>1576682087857</updated>
+      <workItem from="1576682089192" duration="2169000" />
+      <workItem from="1576742688208" duration="2033000" />
     </task>
     <servers />
   </component>
@@ -110,33 +106,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576666187063">
+    <state x="304" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576682565791">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="304" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.956@0.23.1680.956" timestamp="1576682565791" />
+    <state x="577" y="292" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576682560909">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="577" y="292" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.956@0.23.1680.956" timestamp="1576682560909" />
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom" timestamp="1576744580418">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1576744580418" />
+    <state width="1638" height="256" key="GridCell.Tab.0.center" timestamp="1576744580417">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1576744580417" />
+    <state width="1638" height="256" key="GridCell.Tab.0.left" timestamp="1576744580416">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1576744580416" />
+    <state width="1638" height="256" key="GridCell.Tab.0.right" timestamp="1576744580417">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1576744580417" />
+    <state x="519" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1576742706483">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state x="444" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666187063" />
-    <state x="717" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576666075866">
-      <screen x="0" y="23" width="1680" height="958" />
-    </state>
-    <state x="717" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666075866" />
-    <state width="1489" height="243" key="GridCell.Tab.0.bottom" timestamp="1576674500800">
-      <screen x="0" y="23" width="1680" height="958" />
-    </state>
-    <state width="1489" height="243" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1576674500800" />
-    <state width="1489" height="243" key="GridCell.Tab.0.center" timestamp="1576674500799">
-      <screen x="0" y="23" width="1680" height="958" />
-    </state>
-    <state width="1489" height="243" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1576674500799" />
-    <state width="1489" height="243" key="GridCell.Tab.0.left" timestamp="1576674500799">
-      <screen x="0" y="23" width="1680" height="958" />
-    </state>
-    <state width="1489" height="243" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1576674500799" />
-    <state width="1489" height="243" key="GridCell.Tab.0.right" timestamp="1576674500800">
-      <screen x="0" y="23" width="1680" height="958" />
-    </state>
-    <state width="1489" height="243" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1576674500800" />
-    <state x="659" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1576666571389">
-      <screen x="0" y="23" width="1680" height="958" />
-    </state>
-    <state x="659" y="355" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1576666571389" />
+    <state x="519" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1576742706483" />
   </component>
 </project>

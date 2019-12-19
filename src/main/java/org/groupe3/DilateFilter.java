@@ -9,13 +9,13 @@ import static org.bytedeco.opencv.global.opencv_imgproc.*;
 
 public class DilateFilter{
 
-    public void FileToDilate() {
-        File f = new File("imgs/test.jpg");
+    public void FileToDilate(int i, String dir) {
+        File f = new File(dir);
         Mat image = opencv_imgcodecs.imread(f.getAbsolutePath());
         image = filterDilate(image);
 
         File outputDir = new File("imgs_result");
-        File outputFile = new File(outputDir, "dilate-result.jpg");
+        File outputFile = new File(outputDir, "dilate-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
     }
 
