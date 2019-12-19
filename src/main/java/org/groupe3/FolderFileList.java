@@ -6,6 +6,7 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 
 public class FolderFileList {
+    static FilterLog filterlog = new FilterLog();
     static BlurFilter blurFilter = new BlurFilter();
     static DilateFilter dilateFilter = new DilateFilter();
     static GrayscaleFilter grayscaleFilter = new GrayscaleFilter();
@@ -29,18 +30,16 @@ public class FolderFileList {
             } else {
                 System.out.println("     file:");
                 dir = file.getPath();
-                blurFilter.FileToBlur(i, dir);
                 dilateFilter.FileToDilate(i, dir);
                 grayscaleFilter.FileToGrayscale(i, dir);
+                blurFilter.FileToBlur(i, dir);
             }
             System.out.println(file.getCanonicalPath());
             i++;
         }
     }
-    public int GetI(){
-        return i;
-    }
-    public String GetDir(){
-        return dir;
+
+    public void dumpLog() {
+        filterlog.dumpLog();
     }
 }

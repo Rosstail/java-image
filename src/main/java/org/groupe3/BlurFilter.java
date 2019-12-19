@@ -9,6 +9,7 @@ import java.io.File;
 import static org.bytedeco.opencv.global.opencv_imgproc.*;
 
 public class BlurFilter {
+    FilterLog filterlog = new FilterLog();
 
     public void FileToBlur(int i, String dir) throws FilterException {
         File f = new File(dir);
@@ -18,6 +19,7 @@ public class BlurFilter {
         File outputDir = new File("imgs_result");
         File outputFile = new File(outputDir, "blur-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
+        filterlog.logToFile("Blur filter apply on "+ dir);
     }
 
     public Mat filterBlur(Mat image) throws FilterException {

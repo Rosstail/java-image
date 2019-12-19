@@ -8,6 +8,7 @@ import java.io.File;
 import static org.bytedeco.opencv.global.opencv_imgproc.*;
 
 public class DilateFilter{
+    FilterLog filterlog = new FilterLog();
 
     public void FileToDilate(int i, String dir) {
         File f = new File(dir);
@@ -17,6 +18,7 @@ public class DilateFilter{
         File outputDir = new File("imgs_result");
         File outputFile = new File(outputDir, "dilate-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
+        filterlog.logToFile("Dilate filter apply on "+ dir);
     }
 
     public Mat filterDilate(Mat image) {
