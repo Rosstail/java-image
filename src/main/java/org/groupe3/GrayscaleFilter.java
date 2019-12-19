@@ -20,7 +20,7 @@ public class GrayscaleFilter {
         File outputDir = new File("imgs_result");
         File outputFile = new File(outputDir, "grayscale-result"+i+".jpg");
         opencv_imgcodecs.imwrite(outputFile.getAbsolutePath(), image);
-        filterlog.logToFile("Grayscale filter apply on "+ dir);
+        //filterlog.logToFile("Grayscale filter apply on "+ dir);
     }
 
     public Mat filterGrayscale(Mat image) {

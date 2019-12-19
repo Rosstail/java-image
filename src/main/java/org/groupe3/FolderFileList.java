@@ -13,9 +13,10 @@ public class FolderFileList {
     private static int i;
     private static String dir;
 
-    public static void Test() throws IOException, FilterException {
+    public static void Test(String filter) throws IOException, FilterException {
 
         File f = new File("imgs");
+        filterlog.FileDelete();
 
         FilenameFilter textFilter = new FilenameFilter() {
             public boolean accept(File dir, String name) {
@@ -30,9 +31,14 @@ public class FolderFileList {
             } else {
                 System.out.println("     file:");
                 dir = file.getPath();
-                dilateFilter.FileToDilate(i, dir);
-                grayscaleFilter.FileToGrayscale(i, dir);
-                blurFilter.FileToBlur(i, dir);
+                switch (filter){
+                    case "blur":
+                        blurFilter.FileToBlur(i, dir);
+                    case "dilate":
+                        dilateFilter.FileToDilate(i, dir);
+                    case "grayscale":
+                        grayscaleFilter.FileToGrayscale(i, dir);
+                }
             }
             System.out.println(file.getCanonicalPath());
             i++;

@@ -15,7 +15,7 @@ public class FilterLog{
             fw.close();
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Cannot open filter.log. message=" + e.getMessage());
+            System.out.println("Cannot open imagefilter.log. message=" + e.getMessage());
         }
     }
     public void dumpLog() {
@@ -29,5 +29,8 @@ public class FilterLog{
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+    }
+    public void FileDelete() throws IOException {
+        FileWriter fw = new FileWriter("imagefilter.log", false);
     }
 }
